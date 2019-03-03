@@ -14,7 +14,7 @@ QSocks4::QSocks4(QNetworkProxy *proxy, QString address, quint16 port, QObject *p
 
 QSocks4::~QSocks4()
 {
-    delete [] _proxy;
+    delete _proxy;
 }
 
 
